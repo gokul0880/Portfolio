@@ -1,7 +1,8 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaFacebook, FaTwitter, FaLinkedin, FaJsSquare } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaLinkedin, FaJsSquare , FaJava } from 'react-icons/fa';
 import { SiReact, SiTailwindcss, SiPython } from 'react-icons/si';
+
 
 
 const LeftHome = () => {
@@ -56,7 +57,7 @@ const LeftHome = () => {
                                 </span>
                             </div>
                         </div>
-                        <div className='flex flex-col'>
+                        <div className='flex flex-col '>
                             <h2 className='text-base uppercase font-titleFont mb-4'>TECHNOLOGIES I USE</h2>
                             <div className='flex gap-4'>
                                 <span className='bannerIcon'>
@@ -70,6 +71,9 @@ const LeftHome = () => {
                                 </span>
                                 <span className='bannerIcon'>
                                     <FaJsSquare />
+                                </span>
+                                <span className='bannerIcon'>
+                                <FaJava />
                                 </span>
                             </div>
                         </div>
