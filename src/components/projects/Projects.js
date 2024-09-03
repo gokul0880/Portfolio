@@ -20,7 +20,7 @@ const Projects = () => {
         />
         <ProjectsCard 
           title="ANOTHER PROJECT"
-          des="A brief description of another project with different features and functionalities. Highlight what makes this project unique and its key aspects."
+          des="A brief description of another project with different features and functionalities. Highlight what makes this project unique and its key aspects. A brief description of another project with different features and functionalities. Highlight what makes this project unique and its key aspects."
           src={projectTwo}
         />
       </div>
