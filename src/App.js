@@ -4,7 +4,7 @@ import Features from "./components/features/Features";
 import Home from "./components/home/Home";
 import Projects from "./components/projects/Projects"
 import { Resume } from "./components/resume/Resume";
-import { Analytics } from "@vercel/analytics/react"
+
 
 
 function App() {
@@ -13,7 +13,6 @@ function App() {
       <div className="max-w-screen-2xl mx-auto px-16">
         <Navbar/>
         <Home />
-        <Analytics />
         <Features />
         <Projects />
         <Resume />
